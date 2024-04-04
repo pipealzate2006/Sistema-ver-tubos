@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Administrador</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" href="../Fotos/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section>
+      <form method="post" action="login.php">
+        <h1>Iniciar Sesión</h1>
+        <div class="inputbox">
+          <ion-icon name="mail-outline"></ion-icon>
+          <input type="email" name="correo" required />
+          <label for="">Correo</label>
+        </div>
+        <div class="inputbox">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <input type="password" name="clave" required />
+          <label for="">Contraseña</label>
+        </div>
+        <button class="btn" name="Enviar">Enviar</button>
+        <button class="btn"><a href="../pagina-principal/main.php">Home</a></button>
+      </form>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
